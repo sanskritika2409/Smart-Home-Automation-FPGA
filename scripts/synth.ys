@@ -1,0 +1,9 @@
+read_verilog rtl/*.v
+
+hierarchy -top top
+
+synth
+
+stat
+
+write_verilog synthesized.v
